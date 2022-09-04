@@ -86,13 +86,12 @@
     background-color: #070783;
 }
 
-.main {
-    
+.main { 
     height: calc(55vh - 20px);
     margin: 0 20px;
 }
 
-img {
+.logo {
     margin: 0 auto;
     width: 100%;
     height: 100%;
@@ -113,5 +112,100 @@ img {
 
     100% {
         transform: translateY(0%);
+    }
+}
+
+@media (min-width: 481px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 50vh;
+    }
+    
+    .main {
+        margin: 10px;
+        width: calc(60vw - 20px);
+    }
+
+    .header {
+        width: 40vw;
+    }
+
+    .heading {
+        font-size: 2rem;
+        animation: show-image 3s 1;
+    }
+
+    .information {
+        margin-left: 10px;
+    }
+
+    .name-information input {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .round-information input {
+        margin-top: 20px;
+    }
+
+    .name-information {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .round-information {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 769px) {
+    .main {
+        margin: 30px;
+        width: calc(70vw - 60px);
+    }
+
+    .header {
+        width: 30vw;
+    }
+
+    .heading {
+        font-size: 3rem;
+        margin-left: 30px;
+    }
+
+    .name-information, .round-information {
+        display: flex;
+        flex-direction: row;
+        margin: 30px 5px 20px 20px;
+    }
+
+    .name-information input {
+        margin: 0 5px;
+    }
+
+    .round-information input {
+        margin: 0 5px;
+    }
+
+    .round-information label {
+        margin-left: 6px;
+    }
+    .button {
+        margin-top: 30px;
+        font-size: 34px;
+    }
+    
+    .button a {
+        border-radius: 20px;
+        padding: 10px;
+        font-size: 2rem;
+    }
+    
+    .button a:hover {
+        font-size: 2.5rem;
+        background-color: #070783;
     }
 }
