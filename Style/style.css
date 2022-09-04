@@ -21,7 +21,8 @@
 }
 
 .heading {
-    margin: 20px auto;
+    margin: 30px auto;
+    font-size: 2.5rem;
     color: #34495e;
     text-shadow: 1px 1px 4px rgb(94, 95, 87);
     animation: show-image 4s 1;
@@ -64,6 +65,10 @@
     margin-left: 6px;
 }
 
+.button {
+    margin-top: 10px;
+}
+
 .button a {
     text-decoration: none;
     background: #1717a8;
@@ -84,7 +89,7 @@
 .main {
     
     height: calc(55vh - 20px);
-    margin: 20px;
+    margin: 0 20px;
 }
 
 img {
