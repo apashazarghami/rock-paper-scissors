@@ -16,7 +16,7 @@
                 <div class="information">
                     <div class="name-information">
                         <label for="username">Name:</label>
-                        <input id="username" type="text" placeholder="Default: User" />
+                        <input id="username" type="text" placeholder="Default: Player" />
                     </div>
                     <div class="round-information">
                         <label for="round-game">Round:</label>
@@ -31,17 +31,56 @@
                 <img class="logo" src="./Images/rock-paper-scissors.jpg" alt="rock-paper-scissors" />
             </div>
         </div>
-        <div class="play">
-            <div>
-                <img src="./Images/rock.jpg" alt="rock" />
-                <img src="./Images/paper.jpg" alt="paper" />
-                <img src="./Images/scissors.jpg" alt="scissors" />
+        <div class="game-page">
+            <div class="game-header">
+                <div class="user-information">
+                    <div class="username"></div>
+                    <div class="player-score">0</div>
+                </div>
+                <div class="rounds-iteration">
+                    <div><span class="current-round"></span> of <span class="total-rounds"></span></div>
+                </div>
+                <div class="computer-information">
+                    <div>Computer</div>
+                    <div class="computer-score">0</div>
+                </div>
             </div>
-            <div>
-                <img src="./Images/rock.jpg" alt="rock" />
-                <img src="./Images/paper.jpg" alt="paper" />
-                <img src="./Images/scissors.jpg" alt="scissors" />
+            <div class="play-game">
+                <div class="game-part">
+                    <img class="user-image-choice" id="rock" src="./Images/rock.jpg" alt="rock" />
+                    <img class="user-image-choice" id="paper" src="./Images/paper.jpg" alt="paper" />
+                    <img class="user-image-choice" id="scissors" src="./Images/scissors.jpg" alt="scissors" />
+                </div>
+                <div>
+                    <img src="./Images/Logo.jpg" alt="logo" />
+                </div>
+                <div class="game-part">
+                    <img src="./Images/rock.jpg" alt="rock" />
+                    <img src="./Images/paper.jpg" alt="paper" />
+                    <img src="./Images/scissors.jpg" alt="scissors" />
+                </div>
+            </div>
+            <div class="result-game">
+                <div class="user-choice">
+                    <img class="user-image" />
+                </div>
+                <div class="final-result">
+                    <div class="text-result"></div>
+                    <div>
+                        <a class="continue-button" href="#">Continue</a>
+                        <a class="restart-button" href="#">Restart</a>
+                    </div>
+                </div>
+                <div class="computer-choice">
+                    <img class="computer-image" />
+                </div>
             </div>
         </div>
+        <div class="results-score">
+            <h2 class="result-title"></h2>
+            <p class="result-text"><span class="last-score-player"></span> - <span class="last-score-computer"></span></p>
+            <button class="new-game">New game</button>
+        </div>
+        <script src="./JavaScript/main.js" />
     </body>
 </html>
