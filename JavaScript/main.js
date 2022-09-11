@@ -1,9 +1,9 @@
-//Variables
+//* Variables
+const container = document.querySelector(".container");
 const username = document.getElementById("username");
 const roundGame = document.getElementById("round-game");
 const startButton = document.querySelector(".button");
 const gamePage = document.querySelector(".game-page");
-const container = document.querySelector(".container");
 const userName = document.querySelector(".username");
 const totalRounds = document.querySelector(".total-rounds");
 const mediaQuery = matchMedia("(min-width: 481px");
