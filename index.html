@@ -12,19 +12,19 @@
             <div class="header">
                 <div class="wellcome-sheet">
                     <h1 class="heading">Wellcome</h1>
-                    <h2>&#9203 Rock Paper scissors &#9749</h2>
+                    <h2>&#9203 Rock Paper Scissors &#9749</h2>
                 </div>
                 <div class="information">
                     <div class="name-information">
-                        <label for="username">Name:</label>
-                        <input id="username" type="text" placeholder="Default: Player" />
+                        <label for="input-username">Name:</label>
+                        <input id="input-username" type="text" placeholder="Default: Player" />
                     </div>
                     <div class="round-information">
                         <label for="round-game">Round:</label>
                         <input id="round-game" type="number" placeholder="Default: 5" />
                     </div>
                 </div>
-                <div class="button">
+                <div class="start-button">
                     <a href="#">Start</a>
                 </div>
             </div>
@@ -48,9 +48,9 @@
             </div>
             <div class="play-game">
                 <div class="game-part">
-                    <img class="user-image-choice" id="rock" src="./Images/rock.jpg" alt="rock" />
-                    <img class="user-image-choice" id="paper" src="./Images/paper.jpg" alt="paper" />
-                    <img class="user-image-choice" id="scissors" src="./Images/scissors.jpg" alt="scissors" />
+                    <img class="user-image-choice" src="./Images/rock.jpg" alt="rock" />
+                    <img class="user-image-choice" src="./Images/paper.jpg" alt="paper" />
+                    <img class="user-image-choice" src="./Images/scissors.jpg" alt="scissors" />
                 </div>
                 <div>
                     <img src="./Images/Logo.jpg" alt="logo" />
@@ -77,10 +77,10 @@
                 </div>
             </div>
         </div>
-        <div class="results-score">
+        <div class="results-score results-score-hidden">
             <h2 class="result-title"></h2>
             <p class="result-text"><span class="last-score-player"></span> - <span class="last-score-computer"></span></p>
-            <button class="new-game">New game</button>
+            <button class="new-game-button">New game</button>
         </div>
         <script src="./JavaScript/main.js" />
     </body>
