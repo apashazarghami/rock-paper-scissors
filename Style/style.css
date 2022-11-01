@@ -84,18 +84,19 @@
   margin-top: 10px;
 }
 
-.start-button a {
-  text-decoration: none;
+.start-button button {
+  cursor: pointer;
   background: #1717a8;
   color: #ecf0f1;
-  border-radius: 5px;
   padding: 0.6rem 1rem;
   font-size: 0.8rem;
   font-weight: bold;
   transition: all 0.2s ease-in;
+  border: none;
+  border-radius: 50%;
 }
 
-.start-button a:hover {
+.start-button button:hover {
   font-size: 1rem;
   background-color: #070783;
 }
@@ -685,14 +686,15 @@
     margin-top: 25px;
   }
 
-  .start-button a {
+  .start-button button {
     border-radius: 40px;
     padding: 0.9rem 1.5rem;
     font-size: 1.5rem;
+    transition: all 0.3 linear;
   }
 
-  .start-button a:hover {
-    font-size: 2.5rem;
+  .start-button button:hover {
+    font-size: 1.5rem;
     background-color: #070783;
   }
 
