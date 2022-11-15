@@ -1,7 +1,5 @@
 const container = document.querySelector(".container");
-const startButton = document
-  .querySelector(".start-button")
-  .querySelector("button");
+const startButton = document.querySelector(".start-button");
 const gamePage = document.querySelector(".game-page");
 const username = document.querySelector(".username");
 const playerScore = document.querySelector(".player-score");
